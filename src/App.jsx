@@ -1,5 +1,4 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route, NavLink } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, NavLink } from 'react-router-dom';
 import Dashboard from './components/Dashboard';
 import SalesJournal from './components/SalesJournal';
 
@@ -58,7 +57,7 @@ function App() {
           </nav>
         </div>
 
-        {/*Headline*/}
+        {/*Main Content Area*/}
         <div style={{ marginLeft: '280px', flex: 1, padding: '60px' }}>
           <Routes>
             <Route path="/" element={<Dashboard />} />
