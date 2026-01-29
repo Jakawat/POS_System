@@ -1,4 +1,5 @@
 import js from '@eslint/js'
+// ESLint configuration for consistent code style
 import globals from 'globals'
 import reactHooks from 'eslint-plugin-react-hooks'
 import reactRefresh from 'eslint-plugin-react-refresh'
