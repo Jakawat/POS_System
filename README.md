@@ -1,6 +1,5 @@
  # POS System - Web Application
-**Member:** Jakawat Wongcharuen
-**Member:** Wipob Jindapornsuk
+**Member:** Jakawat Wongcharuen & Wipob Jindapornsuk
             
 
 ---
