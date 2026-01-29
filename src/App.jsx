@@ -3,21 +3,22 @@ import Dashboard from './components/Dashboard';
 import SalesJournal from './components/SalesJournal';
 
 function App() {
+  console.log('App initialized');
   return (
     <Router>
       <div style={{ display: 'flex', minHeight: '100vh', backgroundColor: '#f1f5f9' }}>
         {/* Sidebar */}
         <div style={{ width: '280px', backgroundColor: '#e2e8f0', position: 'fixed', height: '100vh' }}>
           <h2 style={{ padding: '50px 0 20px 60px', fontWeight: '900' }}>POS SYSTEM</h2>
-          
+
           <nav style={{ padding: '0 20px' }}>
-            <NavLink to="/" style={({isActive}) => ({
+            <NavLink to="/" style={({ isActive }) => ({
               display: 'block', padding: '14px 20px', borderRadius: '10px', textDecoration: 'none',
               backgroundColor: isActive ? '#fff' : 'transparent',
               color: isActive ? '#2563eb' : '#64748b', fontWeight: 'bold'
             })}>Dashboard</NavLink>
-            
-            <NavLink to="/journal" style={({isActive}) => ({
+
+            <NavLink to="/journal" style={({ isActive }) => ({
               display: 'block', padding: '14px 20px', borderRadius: '10px', textDecoration: 'none',
               backgroundColor: isActive ? '#fff' : 'transparent',
               color: isActive ? '#2563eb' : '#64748b', fontWeight: 'bold'
