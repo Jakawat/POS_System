@@ -3,7 +3,6 @@ import Dashboard from './components/Dashboard';
 import SalesJournal from './components/SalesJournal';
 
 function App() {
-  console.log('App initialized');
   return (
     <Router>
       <div style={{ display: 'flex', minHeight: '100vh', backgroundColor: '#f1f5f9' }}>
